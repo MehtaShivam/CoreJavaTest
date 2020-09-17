@@ -1,0 +1,3 @@
+public, default, private, protected
+a local variable is inside a method
+a instance variable is in a class but outside the methods, can be accessed all over depending on its access modifier

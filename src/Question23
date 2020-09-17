@@ -1,0 +1,28 @@
+method overloading is writing the same method name with different parameters
+method overriding is writing the same method with the same parameters in different parent/subclasses
+
+overloading example:
+
+public class overloadingexample{
+	public void printVehicleDetails(){
+	}
+	public void printVehicleDetails(int count, String name){
+	}
+	public void printVehicleDetails(String name){
+	}
+	
+}
+
+overriding example:
+
+public class overridingexample{
+	public void printVehicleDetails(int count, String name){
+	}
+	
+}
+
+public class example extends overridingexample{
+	public void printVehicleDetails(int count, String name){
+	}
+	
+}
